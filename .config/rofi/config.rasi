@@ -1,0 +1,27 @@
+/*
+* AUTHOR: Luca
+*/
+ 
+configuration{
+    modi: "run,drun,filebrowser,emoji";
+    font:                        "Cascadia Code Bold 10";
+    prompt-font:                 "Cascadia Code Bold 10";
+
+    show-icons: true;
+    icon-theme: "Papirus-Dark";
+    terminal: "kitty";
+    drun-display-format: "{icon} {name}";
+    disable-history: false;
+    hide-scrollbar: false;
+    display-drun: "  ";
+    display-run: "  ";
+    display-emoji: " 😶 ";
+    display-window: " 﩯 ";
+    display-Network: " 󰤨 ";
+    display-filebrowser: "  ";
+    sidebar-mode: true;
+    opacity: 80;
+}
+
+@theme "~/.config/rofi/themes/luncher.rasi"
+
