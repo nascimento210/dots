@@ -1,0 +1,7 @@
+#!/bin/sh
+
+cp -r .profile .vimrc .xinitrc .xprofile .Xresources .zshrc .bashrc ~/
+cp -r .config/* ~/.config/
+#cp -r .local
+
+
